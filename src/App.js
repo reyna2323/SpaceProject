@@ -1,12 +1,15 @@
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import InteractiveSolarSystem from './InteractiveSolarSystem';
 
-import './App.css';
-
-function App() {
+const App = () => {
   return (
-      <div>
-      </div>
-
+    <Router>
+      <Routes>
+        <Route path="/solar-system" element={<InteractiveSolarSystem />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;
