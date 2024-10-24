@@ -1,0 +1,15 @@
+.tabLayout {
+    position: relative;
+    width: 100vw;
+    height: 10vh;
+    background-color: #000;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tabButton {
+    width: 10vw;
+    height: 5vh;
+}
