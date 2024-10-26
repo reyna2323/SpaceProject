@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import SolarSystem from './SolarSystem';
 import PhysicsInfo from './PhysicsInfo';
 import './InteractiveSolarSystem.css';
+import StarsBackground from "./Components/StarsBackground";
 
 const InteractiveSolarSystem = () => {
   const [physicsData, setPhysicsData] = useState({ force: 0, distance: 0, velocity: { x: 0, y: 0 } });
@@ -18,6 +19,7 @@ const InteractiveSolarSystem = () => {
           <PhysicsInfo data={physicsData} />
         </div>
       </div>
+      <StarsBackground/>
     </div>
   );
 };

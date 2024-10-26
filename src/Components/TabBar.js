@@ -1,8 +1,9 @@
 import "./TabBar.css"
 import Button from 'react-bootstrap/Button';
-import {useState} from "react";
+import React, {useState} from "react";
 import TimelineTab from "./TimelineTab";
 import {useNavigate} from "react-router-dom";
+import StarsBackground from "./StarsBackground";
 
 function TabBar() {
     const navigate = useNavigate();
