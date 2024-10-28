@@ -4,6 +4,7 @@ import InteractiveSolarSystem from './InteractiveSolarSystem.js';
 import TabBar from "./Components/TabBar";
 import PhysicsInfo from "./PhysicsInfo";
 import TimelineTab from "./Components/TimelineTab";
+import "./App.css"
 
 const App = () => {
   return (
