@@ -4,3 +4,15 @@
     align-items: center;
     font-family: Arial, sans-serif;
 }
+
+.content {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    margin-top: 20px;
+}
+
+.body {
+
+}
