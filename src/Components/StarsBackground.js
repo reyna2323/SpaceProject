@@ -7,39 +7,34 @@ function StarsBackground() {
         const canvas = canvasRef.current;
         const ctx = canvas.getContext('2d');
 
+        // Set initial canvas size only once
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
 
-        const resizeCanvas = () => {
-            canvas.width = window.innerWidth;
-            canvas.height = window.innerHeight;
-            drawStars();
-        };
+        // Generate and draw stars only once
+        const numStars = 200;
+        const stars = Array.from({ length: numStars }, () => ({
+            x: Math.random() * canvas.width,
+            y: Math.random() * canvas.height,
+            size: Math.random() * 1.5,
+            opacity: Math.random(),
+        }));
 
         const drawStars = () => {
-            const numStars = 200; // Number of stars to display
-            ctx.clearRect(0, 0, canvas.width, canvas.height); // Clear canvas before drawing
-
-            for (let i = 0; i < numStars; i++) {
-                const x = Math.random() * canvas.width;
-                const y = Math.random() * canvas.height;
-                const size = Math.random() * 1.5;
-                const opacity = Math.random();
-
-                // Draw the star
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            stars.forEach(({ x, y, size, opacity }) => {
                 ctx.fillStyle = `rgba(255, 255, 255, ${opacity})`;
                 ctx.beginPath();
                 ctx.arc(x, y, size, 0, Math.PI * 2);
                 ctx.fill();
-            }
+            });
         };
 
-        // Initial canvas setup and drawing
-        resizeCanvas();
+        drawStars(); // Draw stars once
 
-        // Resize event listener
-        window.addEventListener('resize', resizeCanvas);
-
-        // Cleanup on component unmount
-        return () => window.removeEventListener('resize', resizeCanvas);
+        return () => {
+            ctx.clearRect(0, 0, canvas.width, canvas.height); // Cleanup on unmount
+        };
     }, []);
 
     return (
@@ -52,7 +47,7 @@ function StarsBackground() {
                 zIndex: -1,
                 width: '100%',
                 height: '100%',
-                backgroundColor: '#000', // Set a black background to check visibility
+                backgroundColor: '#000',
             }}
         />
     );
