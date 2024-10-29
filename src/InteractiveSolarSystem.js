@@ -19,7 +19,6 @@ const InteractiveSolarSystem = () => {
           <PhysicsInfo data={physicsData} />
         </div>
       </div>
-      <StarsBackground/>
     </div>
   );
 };

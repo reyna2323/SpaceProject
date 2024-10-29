@@ -5,11 +5,13 @@ import TabBar from "./Components/TabBar";
 import PhysicsInfo from "./PhysicsInfo";
 import TimelineTab from "./Components/TimelineTab";
 import "./App.css"
+import StarsBackground from "./Components/StarsBackground";
 
 const App = () => {
   return (
     <Router>
         <div className="App">
+            <StarsBackground />
             <TabBar/>
             <Routes>
                 <Route path="/" element={<Navigate to="/timeline" />}></Route>

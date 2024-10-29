@@ -5,7 +5,6 @@ import React from "react";
 function TimelineTab() {
     return(
         <div className="timeline-tab">
-            <StarsBackground/>
             <h1>History Of Apollo</h1>
             <div className="content">
                 <h2>Background:</h2>
