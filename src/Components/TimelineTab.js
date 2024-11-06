@@ -3,6 +3,7 @@ import StarsBackground from "./StarsBackground";
 import React from "react";
 import TimelinePanel from "./TimelinePanel";
 import SideBar from "./SideBar";
+import Timeline from "./Timeline";
 
 function TimelineTab() {
     return(
@@ -12,7 +13,7 @@ function TimelineTab() {
                 <h2>Background:</h2>
                 <div>
                     <SideBar/>
-                    <TimelinePanel header={"test"} text={"test"} />
+                    <Timeline/>
 
                 </div>
 
