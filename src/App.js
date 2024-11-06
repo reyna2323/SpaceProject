@@ -12,12 +12,12 @@ const App = () => {
     <Router>
         <div className="App">
             <StarsBackground />
-            <TabBar/>
             <Routes>
                 <Route path="/" element={<Navigate to="/timeline" />}></Route>
                 <Route path="/solar-system" element={<InteractiveSolarSystem/>}/>
                 <Route path="/timeline" element={<TimelineTab/>}/>
             </Routes>
+            <TabBar/>
         </div>
     </Router>
 
