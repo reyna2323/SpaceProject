@@ -1,0 +1,23 @@
+.panel {
+    max-width: 30vw;
+    max-height: 30vh;
+    width: 30vw;
+    height: 30vh;
+    border: solid 10px #252525;
+    background-color: #a5a5a5;
+    padding: 10px;
+    font-size: calc(10px + 2vmin);
+}
+
+header {
+    font-size: calc(12px + 2vmin);
+    font-family: "Orbitron", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    color: #121212;
+}
+
+paragraph {
+    font-size: calc(8px + 2vmin);
+    color: #252525;
+}
