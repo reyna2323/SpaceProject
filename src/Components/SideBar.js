@@ -25,7 +25,7 @@ function SideBar() {
         <div style={{position: 'fixed', left: `${left}%`, top: `${top}%`}}>
             {/*<img src={sideBarImage} className="sideBarImg" />*/}
 
-            <Button onClick={() => scrollToPercentage(20)}
+            <Button onClick={() => scrollToPercentage(0/17 * 100)}
                     style={{
                         position: "absolute",
                         display: "flex",
@@ -75,7 +75,7 @@ function SideBar() {
                 left: `${left}%`
 
             }}></Button>
-            <Button onClick={() => scrollToPercentage(20)}
+            <Button onClick={() => scrollToPercentage(1/17 * 100 + 1)}
                     style={{
                         position: "absolute",
                         display: "flex",
@@ -124,7 +124,7 @@ function SideBar() {
                 left: `${left}%`
 
             }}></Button>
-            <Button onClick={() => scrollToPercentage(20)}
+            <Button onClick={() => scrollToPercentage(2/17 * 100 + 1)}
                     style={{
                         position: "absolute",
                         display: "flex",
@@ -173,7 +173,7 @@ function SideBar() {
                 left: `${left}%`
 
             }}></Button>
-            <Button onClick={() => scrollToPercentage(20)}
+            <Button onClick={() => scrollToPercentage(3/17 * 100 + 1)}
                     style={{
                         position: "absolute",
                         display: "flex",
@@ -222,7 +222,7 @@ function SideBar() {
                 left: `${left}%`
 
             }}></Button>
-            <Button onClick={() => scrollToPercentage(20)}
+            <Button onClick={() => scrollToPercentage(4/17 * 100 + 1)}
                     style={{
                         position: "absolute",
                         display: "flex",
@@ -271,7 +271,7 @@ function SideBar() {
                 left: `${left}%`
 
             }}></Button>
-            <Button onClick={() => scrollToPercentage(20)}
+            <Button onClick={() => scrollToPercentage(5/17 * 100 + 1)}
                     style={{
                         position: "absolute",
                         display: "flex",
@@ -320,7 +320,7 @@ function SideBar() {
                 left: `${left}%`
 
             }}></Button>
-            <Button onClick={() => scrollToPercentage(20)}
+            <Button onClick={() => scrollToPercentage(6/17 * 100 + 1)}
                     style={{
                         position: "absolute",
                         display: "flex",
@@ -369,7 +369,7 @@ function SideBar() {
                 left: `${left}%`
 
             }}></Button>
-            <Button onClick={() => scrollToPercentage(20)}
+            <Button onClick={() => scrollToPercentage(7/17 * 100 + 1)}
                     style={{
                         position: "absolute",
                         display: "flex",
@@ -418,7 +418,7 @@ function SideBar() {
                 left: `${left}%`
 
             }}></Button>
-            <Button onClick={() => scrollToPercentage(20)}
+            <Button onClick={() => scrollToPercentage(8/17 * 100 + 1)}
                     style={{
                         position: "absolute",
                         display: "flex",
@@ -467,7 +467,7 @@ function SideBar() {
                 left: `${left}%`
 
             }}></Button>
-            <Button onClick={() => scrollToPercentage(20)}
+            <Button onClick={() => scrollToPercentage(9/17 * 100 + 1)}
                     style={{
                         position: "absolute",
                         display: "flex",
@@ -516,7 +516,7 @@ function SideBar() {
                 left: `${left}%`
 
             }}></Button>
-            <Button onClick={() => scrollToPercentage(20)}
+            <Button onClick={() => scrollToPercentage(10/17 * 100 + 1)}
                     style={{
                         position: "absolute",
                         display: "flex",
@@ -565,7 +565,7 @@ function SideBar() {
                 left: `${left}%`
 
             }}></Button>
-            <Button onClick={() => scrollToPercentage(20)}
+            <Button onClick={() => scrollToPercentage(11/17 * 100 + 1)}
                     style={{
                         position: "absolute",
                         display: "flex",
@@ -614,7 +614,7 @@ function SideBar() {
                 left: `${left}%`
 
             }}></Button>
-            <Button onClick={() => scrollToPercentage(20)}
+            <Button onClick={() => scrollToPercentage(12/17 * 100 + 1)}
                     style={{
                         position: "absolute",
                         display: "flex",
@@ -663,7 +663,7 @@ function SideBar() {
                 left: `${left}%`
 
             }}></Button>
-            <Button onClick={() => scrollToPercentage(20)}
+            <Button onClick={() => scrollToPercentage(13/17 * 100 + 1)}
                     style={{
                         position: "absolute",
                         display: "flex",
@@ -712,7 +712,7 @@ function SideBar() {
                 left: `${left}%`
 
             }}></Button>
-            <Button onClick={() => scrollToPercentage(20)}
+            <Button onClick={() => scrollToPercentage(14/17 * 100 + 1)}
                     style={{
                         position: "absolute",
                         display: "flex",
@@ -761,7 +761,7 @@ function SideBar() {
                 left: `${left}%`
 
             }}></Button>
-            <Button onClick={() => scrollToPercentage(20)}
+            <Button onClick={() => scrollToPercentage(15/17 * 100 + 1)}
                     style={{
                         position: "absolute",
                         display: "flex",
@@ -810,7 +810,7 @@ function SideBar() {
                 left: `${left}%`
 
             }}></Button>
-            <Button onClick={() => scrollToPercentage(20)}
+            <Button onClick={() => scrollToPercentage(16/17 * 100 + 1)}
                     style={{
                         position: "absolute",
                         display: "flex",
