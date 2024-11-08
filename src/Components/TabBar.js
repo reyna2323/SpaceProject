@@ -15,7 +15,7 @@ function TabBar() {
         <div className="tabLayout">
             <Button className="tabButton" onClick={() => goToTimelineTab("/timeline")}>Apollo Timeline</Button>
             <Button className="tabButton" onClick={() => goToTimelineTab("/solar-system")}>Create An Orbital!</Button>
-            <Button className="tabButton">About Us</Button>
+            {/*<Button className="tabButton">About Us</Button>*/}
 
         </div>
 
