@@ -1,35 +1,26 @@
-/* InteractiveSolarSystem.css */
 .interactive-solar-system {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: Arial, sans-serif;
-  }
-  
-  .content {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    margin-top: 20px;
-  }
-  
-  .simulation,
-  .info {
-    padding: 10px;
-  }
-  
-  .simulation canvas {
-    border: 1px solid black;
-  }
-  
-  .physics-info {
-    max-width: 300px;
-    font-size: 0.9em;
-  }
-  
-  button {
-    margin-top: 10px;
-    padding: 5px 10px;
-    font-size: 0.9em;
-  }
-  
+  background-color: black; /* Black background for the entire section */
+  color: white; /* White text for readability */
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+canvas {
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  margin-bottom: 20px;
+}
+
+.physics-info {
+  background-color: #222; /* Darker gray for a slight contrast */
+  padding: 15px;
+  margin: 0 auto;
+  border-radius: 8px;
+  max-width: 600px;
+  color: #fff;
+  font-size: 1rem;
+}
