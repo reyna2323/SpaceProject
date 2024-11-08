@@ -2,7 +2,6 @@ import React from 'react';
 import {BrowserRouter as Router, Navigate, Route, Routes} from 'react-router-dom';
 import InteractiveSolarSystem from './InteractiveSolarSystem.js';
 import TabBar from "./Components/TabBar";
-import PhysicsInfo from "./PhysicsInfo";
 import TimelineTab from "./Components/TimelineTab";
 import "./App.css"
 import StarsBackground from "./Components/StarsBackground";
