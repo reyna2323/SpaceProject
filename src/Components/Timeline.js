@@ -29,14 +29,7 @@ function Timeline() {
             }}>
                 <TimelineButton width={width} height={height} node1={timelineEndNode} node2={timelineEndNodeActive}/>
                 <TimelinePanel header={"Apollo 1"}
-                               text={
-                                   <>
-                                       {"Apollo 1, initially designated AS-204, was planned to be the first crewed mission of the Apollo program, the American undertaking to land the first man on the Moon. It was planned to launch on February 21, 1967, as the first low Earth orbital test of the Apollo command and service module. The mission never flew; a cabin fire during a launch rehearsal test at Cape Kennedy Air Force Station Launch Complex 34 on January 27 killed all three crew members—Command Pilot Gus Grissom, Senior Pilot Ed White, and Pilot Roger B. Chaffee—and destroyed the command module (CM). The name Apollo 1, chosen by the crew, was made official by NASA in their honor after the fire."}
-                                       <br />
-                                       <br />
-                                       {"Immediately after the fire, NASA convened an Accident Review Board to determine the cause of the fire, and both chambers of the United States Congress conducted their own committee inquiries to oversee NASA's investigation. The ignition source of the fire was determined to be electrical, and the fire spread rapidly due to combustible nylon material and the high-pressure pure oxygen cabin atmosphere. Rescue was prevented by the plug door hatch, which could not be opened against the internal pressure of the cabin. Because the rocket was unfueled, the test had not been considered hazardous, and emergency preparedness for it was poor."}
-                                   </>
-                               }/>
+                               prompt={"Apollo 1"}/>
             </div>
 
             <Button style={{

@@ -19,7 +19,7 @@ header {
     color: #121212;
 }
 
-paragraph {
+p {
     font-size: calc(8px + 1vmin);
     color: #252525;
 }
