@@ -32,16 +32,16 @@ const InteractiveSolarSystem = () => {
     const draw = () => {
       // Clear the canvas and set background color
       ctx.clearRect(0, 0, width, height);
-      ctx.fillStyle = 'black';
+      ctx.fillStyle = 'transparent';
       ctx.fillRect(0, 0, width, height);
 
       // Star background
-      for (let i = 0; i < 100; i++) {
-        const x = Math.random() * width;
-        const y = Math.random() * height;
-        ctx.fillStyle = 'white';
-        ctx.fillRect(x, y, 2, 2); // Small white squares as stars
-      }
+      // for (let i = 0; i < 100; i++) {
+      //   const x = Math.random() * width;
+      //   const y = Math.random() * height;
+      //   ctx.fillStyle = 'white';
+      //   ctx.fillRect(x, y, 2, 2); // Small white squares as stars
+      // }
 
       // Draw the sun
       ctx.beginPath();

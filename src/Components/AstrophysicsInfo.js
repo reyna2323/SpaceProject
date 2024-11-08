@@ -2,7 +2,7 @@ import React from 'react';
 
 const AstrophysicsInfo = () => {
   return (
-    <div className="astrophysics-info">
+    <div style={{top: "1vh", padding: "2vw"}}>
       <h2>AI in Astrophysics - Where Do We Stand and What Can We Create?</h2>
       <p>
         This is a presentation that Reyna did for her Mobile Application Development class where she introduces how AI is being used in Astrophysics. The presentation covers the basics of AI and its applications in understanding the universe.
