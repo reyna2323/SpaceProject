@@ -1,9 +1,7 @@
-import "./TabBar.css"
+import "./TabBar.css";
 import Button from 'react-bootstrap/Button';
-import React, {useState} from "react";
-import TimelineTab from "./TimelineTab";
+import React from "react";
 import {useNavigate} from "react-router-dom";
-import StarsBackground from "./StarsBackground";
 
 function TabBar() {
     const navigate = useNavigate();
@@ -15,11 +13,9 @@ function TabBar() {
         <div className="tabLayout">
             <Button className="tabButton" onClick={() => goToTimelineTab("/timeline")}>Apollo Timeline</Button>
             <Button className="tabButton" onClick={() => goToTimelineTab("/solar-system")}>Create An Orbital!</Button>
-            <Button className="tabButton">About Us</Button>
-
+            <Button className="tabButton" onClick={() => goToTimelineTab("/astrophysics-info")}>Astrophysics Information</Button>
         </div>
-
-    )
+    );
 }
 
 export default TabBar;
