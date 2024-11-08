@@ -4,7 +4,7 @@
     width: 30vw;
     height: 30vh;
     border: solid 10px #252525;
-    background-color: #a5a5a5;
+    background-color: #fdf4f4;
     padding: 10px;
     font-size: calc(10px + 2vmin);
     overflow-y: auto;
@@ -21,5 +21,5 @@ header {
 
 p {
     font-size: calc(8px + 1vmin);
-    color: #252525;
+    color: #636262;
 }
