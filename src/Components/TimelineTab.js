@@ -8,9 +8,9 @@ import Timeline from "./Timeline";
 function TimelineTab() {
     return(
         <div className="timeline-tab">
-            <h1>History Of Apollo</h1>
+            <h1>w</h1>
             <div className="content">
-                <h2>Background:</h2>
+                <h2>Timeline of Apollo:</h2>
                 <div>
                     <SideBar/>
                     <Timeline/>

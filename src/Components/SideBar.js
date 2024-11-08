@@ -16,8 +16,8 @@ function scrollToPercentage(percentage) {
 }
 
 function SideBar() {
-    const width = window.innerHeight/40
-    const height = window.innerHeight/40
+    const width = window.innerHeight/35
+    const height = window.innerHeight/35
     const top = 12
     const left = 6
 
@@ -25,7 +25,7 @@ function SideBar() {
         <div style={{position: 'fixed', left: `${left}%`, top: `${top}%`}}>
             {/*<img src={sideBarImage} className="sideBarImg" />*/}
 
-            <Button onClick={() => scrollToPercentage(0/17 * 100)}
+            <Button onClick={() => scrollToPercentage(0/15 * 100)}
                     style={{
                         position: "absolute",
                         display: "flex",
@@ -75,7 +75,7 @@ function SideBar() {
                 left: `${left}%`
 
             }}></Button>
-            <Button onClick={() => scrollToPercentage(1/17 * 100 + 1)}
+            <Button onClick={() => scrollToPercentage(1/15 * 100 + 1)}
                     style={{
                         position: "absolute",
                         display: "flex",
@@ -93,104 +93,6 @@ function SideBar() {
                         padding: '0',
                         outline: 'none',
                         top: `calc(${top}% + ${2 * height}px)`,
-                        left: `${left}%`
-
-                    }}><span style={{
-                color: "white",
-                marginLeft: "2vw", // Space between image and text
-                fontSize: "16px",
-                fontWeight: "bold",
-                textAlign: "center",
-            }}>
-                Apollo 2
-            </span></Button>
-            <Button style={{
-                position: "absolute",
-                display: "flex",
-                backgroundImage: `url(${timelineInterNode})`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                backgroundColor: 'transparent',
-                minWidth: `${width}px`,
-                maxWidth: `${width}px`,
-                width: `${width}px`,
-                minHeight: `${height}px`,
-                maxHeight: `${height}px`,
-                height: `${height}px`,
-                border: 'none',
-                padding: '0',
-                outline: 'none',
-                top: `calc(${top}% + ${3 * height}px)`,
-                left: `${left}%`
-
-            }}></Button>
-            <Button onClick={() => scrollToPercentage(2/17 * 100 + 1)}
-                    style={{
-                        position: "absolute",
-                        display: "flex",
-                        backgroundImage: `url(${timeline2WayNode})`,
-                        backgroundSize: 'cover',
-                        backgroundPosition: 'center',
-                        backgroundColor: 'transparent',
-                        minWidth: `${width}px`,
-                        maxWidth: `${width}px`,
-                        width: `${width}px`,
-                        minHeight: `${height}px`,
-                        maxHeight: `${height}px`,
-                        height: `${height}px`,
-                        border: 'none',
-                        padding: '0',
-                        outline: 'none',
-                        top: `calc(${top}% + ${4 * height}px)`,
-                        left: `${left}%`
-
-                    }}><span style={{
-                color: "white",
-                marginLeft: "2vw", // Space between image and text
-                fontSize: "16px",
-                fontWeight: "bold",
-                textAlign: "center",
-            }}>
-                Apollo 3
-            </span></Button>
-            <Button style={{
-                position: "absolute",
-                display: "flex",
-                backgroundImage: `url(${timelineInterNode})`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                backgroundColor: 'transparent',
-                minWidth: `${width}px`,
-                maxWidth: `${width}px`,
-                width: `${width}px`,
-                minHeight: `${height}px`,
-                maxHeight: `${height}px`,
-                height: `${height}px`,
-                border: 'none',
-                padding: '0',
-                outline: 'none',
-                top: `calc(${top}% + ${5 * height}px)`,
-                left: `${left}%`
-
-            }}></Button>
-            <Button onClick={() => scrollToPercentage(3/17 * 100 + 1)}
-                    style={{
-                        position: "absolute",
-                        display: "flex",
-                        backgroundImage: `url(${timeline2WayNode})`,
-                        backgroundSize: 'cover',
-                        backgroundPosition: 'center',
-                        backgroundColor: 'transparent',
-                        minWidth: `${width}px`,
-                        maxWidth: `${width}px`,
-                        width: `${width}px`,
-                        minHeight: `${height}px`,
-                        maxHeight: `${height}px`,
-                        height: `${height}px`,
-                        border: 'none',
-                        padding: '0',
-                        outline: 'none',
-                        top: `calc(${top}% + ${6 * height}px)`,
                         left: `${left}%`
 
                     }}><span style={{
@@ -218,11 +120,11 @@ function SideBar() {
                 border: 'none',
                 padding: '0',
                 outline: 'none',
-                top: `calc(${top}% + ${7 * height}px)`,
+                top: `calc(${top}% + ${3 * height}px)`,
                 left: `${left}%`
 
             }}></Button>
-            <Button onClick={() => scrollToPercentage(4/17 * 100 + 1)}
+            <Button onClick={() => scrollToPercentage(2/15 * 100 + 1)}
                     style={{
                         position: "absolute",
                         display: "flex",
@@ -239,7 +141,7 @@ function SideBar() {
                         border: 'none',
                         padding: '0',
                         outline: 'none',
-                        top: `calc(${top}% + ${8 * height}px)`,
+                        top: `calc(${top}% + ${4 * height}px)`,
                         left: `${left}%`
 
                     }}><span style={{
@@ -267,11 +169,11 @@ function SideBar() {
                 border: 'none',
                 padding: '0',
                 outline: 'none',
-                top: `calc(${top}% + ${9 * height}px)`,
+                top: `calc(${top}% + ${5 * height}px)`,
                 left: `${left}%`
 
             }}></Button>
-            <Button onClick={() => scrollToPercentage(5/17 * 100 + 1)}
+            <Button onClick={() => scrollToPercentage(3/15 * 100 + 1)}
                     style={{
                         position: "absolute",
                         display: "flex",
@@ -288,7 +190,7 @@ function SideBar() {
                         border: 'none',
                         padding: '0',
                         outline: 'none',
-                        top: `calc(${top}% + ${10 * height}px)`,
+                        top: `calc(${top}% + ${6 * height}px)`,
                         left: `${left}%`
 
                     }}><span style={{
@@ -316,11 +218,11 @@ function SideBar() {
                 border: 'none',
                 padding: '0',
                 outline: 'none',
-                top: `calc(${top}% + ${11 * height}px)`,
+                top: `calc(${top}% + ${7 * height}px)`,
                 left: `${left}%`
 
             }}></Button>
-            <Button onClick={() => scrollToPercentage(6/17 * 100 + 1)}
+            <Button onClick={() => scrollToPercentage(4/15 * 100 + 1)}
                     style={{
                         position: "absolute",
                         display: "flex",
@@ -337,7 +239,7 @@ function SideBar() {
                         border: 'none',
                         padding: '0',
                         outline: 'none',
-                        top: `calc(${top}% + ${12 * height}px)`,
+                        top: `calc(${top}% + ${8 * height}px)`,
                         left: `${left}%`
 
                     }}><span style={{
@@ -365,11 +267,11 @@ function SideBar() {
                 border: 'none',
                 padding: '0',
                 outline: 'none',
-                top: `calc(${top}% + ${13 * height}px)`,
+                top: `calc(${top}% + ${9 * height}px)`,
                 left: `${left}%`
 
             }}></Button>
-            <Button onClick={() => scrollToPercentage(7/17 * 100 + 1)}
+            <Button onClick={() => scrollToPercentage(5/15 * 100 + 1)}
                     style={{
                         position: "absolute",
                         display: "flex",
@@ -386,7 +288,7 @@ function SideBar() {
                         border: 'none',
                         padding: '0',
                         outline: 'none',
-                        top: `calc(${top}% + ${14 * height}px)`,
+                        top: `calc(${top}% + ${10 * height}px)`,
                         left: `${left}%`
 
                     }}><span style={{
@@ -414,11 +316,11 @@ function SideBar() {
                 border: 'none',
                 padding: '0',
                 outline: 'none',
-                top: `calc(${top}% + ${15 * height}px)`,
+                top: `calc(${top}% + ${11 * height}px)`,
                 left: `${left}%`
 
             }}></Button>
-            <Button onClick={() => scrollToPercentage(8/17 * 100 + 1)}
+            <Button onClick={() => scrollToPercentage(6/15 * 100 + 1)}
                     style={{
                         position: "absolute",
                         display: "flex",
@@ -435,7 +337,7 @@ function SideBar() {
                         border: 'none',
                         padding: '0',
                         outline: 'none',
-                        top: `calc(${top}% + ${16 * height}px)`,
+                        top: `calc(${top}% + ${12 * height}px)`,
                         left: `${left}%`
 
                     }}><span style={{
@@ -463,11 +365,11 @@ function SideBar() {
                 border: 'none',
                 padding: '0',
                 outline: 'none',
-                top: `calc(${top}% + ${17 * height}px)`,
+                top: `calc(${top}% + ${13 * height}px)`,
                 left: `${left}%`
 
             }}></Button>
-            <Button onClick={() => scrollToPercentage(9/17 * 100 + 1)}
+            <Button onClick={() => scrollToPercentage(7/15 * 100 + 1)}
                     style={{
                         position: "absolute",
                         display: "flex",
@@ -484,7 +386,7 @@ function SideBar() {
                         border: 'none',
                         padding: '0',
                         outline: 'none',
-                        top: `calc(${top}% + ${18 * height}px)`,
+                        top: `calc(${top}% + ${14 * height}px)`,
                         left: `${left}%`
 
                     }}><span style={{
@@ -512,11 +414,11 @@ function SideBar() {
                 border: 'none',
                 padding: '0',
                 outline: 'none',
-                top: `calc(${top}% + ${19 * height}px)`,
+                top: `calc(${top}% + ${15 * height}px)`,
                 left: `${left}%`
 
             }}></Button>
-            <Button onClick={() => scrollToPercentage(10/17 * 100 + 1)}
+            <Button onClick={() => scrollToPercentage(8/15 * 100 + 1)}
                     style={{
                         position: "absolute",
                         display: "flex",
@@ -533,7 +435,7 @@ function SideBar() {
                         border: 'none',
                         padding: '0',
                         outline: 'none',
-                        top: `calc(${top}% + ${20 * height}px)`,
+                        top: `calc(${top}% + ${16 * height}px)`,
                         left: `${left}%`
 
                     }}><span style={{
@@ -561,11 +463,11 @@ function SideBar() {
                 border: 'none',
                 padding: '0',
                 outline: 'none',
-                top: `calc(${top}% + ${21 * height}px)`,
+                top: `calc(${top}% + ${17 * height}px)`,
                 left: `${left}%`
 
             }}></Button>
-            <Button onClick={() => scrollToPercentage(11/17 * 100 + 1)}
+            <Button onClick={() => scrollToPercentage(9/15 * 100 + 1)}
                     style={{
                         position: "absolute",
                         display: "flex",
@@ -582,7 +484,7 @@ function SideBar() {
                         border: 'none',
                         padding: '0',
                         outline: 'none',
-                        top: `calc(${top}% + ${22 * height}px)`,
+                        top: `calc(${top}% + ${18 * height}px)`,
                         left: `${left}%`
 
                     }}><span style={{
@@ -610,11 +512,11 @@ function SideBar() {
                 border: 'none',
                 padding: '0',
                 outline: 'none',
-                top: `calc(${top}% + ${23 * height}px)`,
+                top: `calc(${top}% + ${19 * height}px)`,
                 left: `${left}%`
 
             }}></Button>
-            <Button onClick={() => scrollToPercentage(12/17 * 100 + 1)}
+            <Button onClick={() => scrollToPercentage(10/15 * 100 + 1)}
                     style={{
                         position: "absolute",
                         display: "flex",
@@ -631,7 +533,7 @@ function SideBar() {
                         border: 'none',
                         padding: '0',
                         outline: 'none',
-                        top: `calc(${top}% + ${24 * height}px)`,
+                        top: `calc(${top}% + ${20 * height}px)`,
                         left: `${left}%`
 
                     }}><span style={{
@@ -659,11 +561,11 @@ function SideBar() {
                 border: 'none',
                 padding: '0',
                 outline: 'none',
-                top: `calc(${top}% + ${25 * height}px)`,
+                top: `calc(${top}% + ${21 * height}px)`,
                 left: `${left}%`
 
             }}></Button>
-            <Button onClick={() => scrollToPercentage(13/17 * 100 + 1)}
+            <Button onClick={() => scrollToPercentage(11/15 * 100 + 1)}
                     style={{
                         position: "absolute",
                         display: "flex",
@@ -680,7 +582,7 @@ function SideBar() {
                         border: 'none',
                         padding: '0',
                         outline: 'none',
-                        top: `calc(${top}% + ${26 * height}px)`,
+                        top: `calc(${top}% + ${22 * height}px)`,
                         left: `${left}%`
 
                     }}><span style={{
@@ -708,11 +610,11 @@ function SideBar() {
                 border: 'none',
                 padding: '0',
                 outline: 'none',
-                top: `calc(${top}% + ${27 * height}px)`,
+                top: `calc(${top}% + ${23 * height}px)`,
                 left: `${left}%`
 
             }}></Button>
-            <Button onClick={() => scrollToPercentage(14/17 * 100 + 1)}
+            <Button onClick={() => scrollToPercentage(12/15 * 100 + 1)}
                     style={{
                         position: "absolute",
                         display: "flex",
@@ -729,7 +631,7 @@ function SideBar() {
                         border: 'none',
                         padding: '0',
                         outline: 'none',
-                        top: `calc(${top}% + ${28 * height}px)`,
+                        top: `calc(${top}% + ${24 * height}px)`,
                         left: `${left}%`
 
                     }}><span style={{
@@ -757,11 +659,11 @@ function SideBar() {
                 border: 'none',
                 padding: '0',
                 outline: 'none',
-                top: `calc(${top}% + ${29 * height}px)`,
+                top: `calc(${top}% + ${25 * height}px)`,
                 left: `${left}%`
 
             }}></Button>
-            <Button onClick={() => scrollToPercentage(15/17 * 100 + 1)}
+            <Button onClick={() => scrollToPercentage(13/15 * 100 + 1)}
                     style={{
                         position: "absolute",
                         display: "flex",
@@ -778,7 +680,7 @@ function SideBar() {
                         border: 'none',
                         padding: '0',
                         outline: 'none',
-                        top: `calc(${top}% + ${30 * height}px)`,
+                        top: `calc(${top}% + ${26 * height}px)`,
                         left: `${left}%`
 
                     }}><span style={{
@@ -806,11 +708,12 @@ function SideBar() {
                 border: 'none',
                 padding: '0',
                 outline: 'none',
-                top: `calc(${top}% + ${31 * height}px)`,
+                top: `calc(${top}% + ${27 * height}px)`,
                 left: `${left}%`
 
             }}></Button>
-            <Button onClick={() => scrollToPercentage(16/17 * 100 + 1)}
+
+            <Button onClick={() => scrollToPercentage(14/15 * 100 + 1)}
                     style={{
                         position: "absolute",
                         display: "flex",
@@ -827,7 +730,7 @@ function SideBar() {
                         border: 'none',
                         padding: '0',
                         outline: 'none',
-                        top: `calc(${top}% + ${32 * height}px)`,
+                        top: `calc(${top}% + ${28 * height}px)`,
                         left: `${left}%`
 
                     }}><span style={{
